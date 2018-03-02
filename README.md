@@ -3,10 +3,9 @@ ember-exif-reader-shim
 
 [![Build Status](https://travis-ci.org/Duder-onomy/ember-exif-reader-shim.svg?branch=master)](https://travis-ci.org/Duder-onomy/ember-exif-reader-shim)
 
-This shims [ExifReader](https://github.com/mattiasw/ExifReader);
+This shims [ExifReader](https://github.com/mattiasw/ExifReader).
 
 This shim will not load ExifReader during fastboot.
-* Thought if there is interest I can probably make this work in node land.
 
 
 Installation
@@ -23,7 +22,7 @@ Usage
 import exifreader from 'exifreader';
 ```
 
-Follow the docs (here)[https://github.com/mattiasw/ExifReader];
+Follow the docs [here](https://github.com/mattiasw/ExifReader).
 
 License
 ------------------------------------------------------------------------------
