@@ -1,7 +1,11 @@
 ember-exif-reader-shim
 ==============================================================================
 
-[Short description of the addon.]
+This shims [ExifReader](https://github.com/mattiasw/ExifReader);
+
+This shim will not load ExifReader during fastboot.
+* Thought if there is interest I can probably make this work in node land.
+
 
 Installation
 ------------------------------------------------------------------------------
@@ -10,39 +14,14 @@ Installation
 ember install ember-exif-reader-shim
 ```
 
-
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+```javascript
+import exifreader from 'exifreader';
+```
 
-
-Contributing
-------------------------------------------------------------------------------
-
-### Installation
-
-* `git clone <repository-url>`
-* `cd ember-exif-reader-shim`
-* `yarn install`
-
-### Linting
-
-* `yarn lint:js`
-* `yarn lint:js --fix`
-
-### Running tests
-
-* `ember test` – Runs the test suite on the current Ember version
-* `ember test --server` – Runs the test suite in "watch mode"
-* `yarn test` – Runs `ember try:each` to test your addon against multiple Ember versions
-
-### Running the dummy application
-
-* `ember serve`
-* Visit the dummy application at [http://localhost:4200](http://localhost:4200).
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+Follow the docs (here)[https://github.com/mattiasw/ExifReader];
 
 License
 ------------------------------------------------------------------------------
