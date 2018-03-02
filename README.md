@@ -1,6 +1,8 @@
 ember-exif-reader-shim
 ==============================================================================
 
+[![Build Status](https://travis-ci.org/Duder-onomy/ember-exif-reader-shim.svg?branch=master)](https://travis-ci.org/Duder-onomy/ember-exif-reader-shim)
+
 This shims [ExifReader](https://github.com/mattiasw/ExifReader);
 
 This shim will not load ExifReader during fastboot.
