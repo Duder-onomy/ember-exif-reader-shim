@@ -1,14 +1,12 @@
-if (typeof FastBoot === 'undefined') {
-  (function() {
+(function() {
 
-    function generateModule(name, values) {
-      define(name, [], function() {
-        'use strict';
+  function generateModule(name, values) {
+    define(name, [], function() {
+      'use strict';
 
-        return values;
-      });
-    }
+      return values;
+    });
+  }
 
-    generateModule('exifreader', { 'default': window.ExifReader });
-  })();
-}
+  generateModule('exifreader', { 'default': window.ExifReader });
+})();
