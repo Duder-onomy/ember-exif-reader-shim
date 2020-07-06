@@ -1,4 +1,13 @@
-ember-exif-reader-shim
+*DEPRECATED* ember-exif-reader-shim
+==============================================================================
+
+Use [`ember-auto-import`](https://github.com/ef4/ember-auto-import) instead. 
+
+Once you have ember-auto-import installed
+* install [ExifReader](https://github.com/mattiasw/ExifReader) directly
+* use it like: `import ExifReader from 'ExifReader';`
+
+
 ==============================================================================
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/Duder-onomy/ember-exif-reader-shim.svg)](https://greenkeeper.io/)
